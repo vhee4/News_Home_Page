@@ -1,11 +1,6 @@
 /* @import url(https://fonts.google.com/specimen/Inter); */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
 
-/* @font-face {
-    font-family: "Inter";
-    src: url(/assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
-} */
-
 *{
     box-sizing: border-box;
     margin: 0;
@@ -29,6 +24,7 @@ body{
         padding: 30px 50px 30px 50px;
     }
 }
+
 header{
     margin: 40px 0px 40px 0px;
 }
@@ -62,7 +58,6 @@ ul.list li{
 }
 
 .content_left{
-    /* width: 70%; */
     flex: 0.7;
     height: 100%;
 }
@@ -70,7 +65,6 @@ ul.list li{
 .content_right{
     background-color: black;
     color: white;
-    /* width: 25%; */
     flex: 0.25;
     height: 100%;
     padding: 20px;
@@ -84,14 +78,12 @@ ul.list li{
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
-    /* width: 100%; */
 }
 
 .content_sub h1{
     font-size: 55px;
     font-weight: 900;
     max-width: 20rem;
-    /* width: 50%; */
 }
 
 .content_sub p{
@@ -102,7 +94,6 @@ ul.list li{
 .content_sub1{
     margin-left: 10px ;
     max-width: 24rem;
-    /* width: 50%; */
 }
 
 .content_sub1 > p{
@@ -141,7 +132,6 @@ button{
 
 .big_bottom_cont{
     display: flex;
-    /* flex-wrap: wrap; */
     align-items: center;
     margin-bottom: 10px;
     margin-top: 20px;
